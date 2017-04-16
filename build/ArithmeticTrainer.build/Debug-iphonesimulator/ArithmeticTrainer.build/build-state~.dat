@@ -1,0 +1,586 @@
+TArithmeticTrainer
+v7
+r0
+t310896563.253769
+cCheck dependencies
+cProcessInfoPlistFile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/Info.plist ArithmeticTrainer-Info.plist
+cCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib
+cCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+cCpResource build/Debug-iphonesimulator/ArithmeticTrainer.app/FBDialog.bundle ../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle
+cProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSObject+SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSString+SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonBase.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonParser.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonWriter.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBRequest.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/Facebook.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBLoginDialog.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBDialog.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle
+c000000004CB6CB420000000000000066
+t1287048002
+s102
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m
+c000000004CB6CB4200000000000056FD
+t1287048002
+s22269
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m
+c000000004CB6CB420000000000000BC4
+t1287048002
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m
+c000000004CB6CB420000000000002BEA
+t1287048002
+s11242
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m
+c000000004CB6CB420000000000003DDE
+t1287048002
+s15838
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/JSON.h
+c000000004CB6CB4200000000000008F9
+t1287048002
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.h
+c000000004CB6CB420000000000000A01
+t1287048002
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m
+c000000004CB6CB42000000000000089E
+t1287048002
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.h
+c000000004CB6CB420000000000000916
+t1287048002
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m
+c000000004CB6CB42000000000000087D
+t1287048002
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.h
+c000000004CB6CB420000000000000AED
+t1287048002
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m
+c000000004CB6CB420000000000001ABC
+t1287048002
+s6844
+i"SBJSON.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.h
+c000000004CB6CB420000000000000B82
+t1287048002
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m
+c000000004CB6CB420000000000000AC1
+t1287048002
+s2753
+i"SBJsonBase.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.h
+c000000004CB6CB420000000000000C0B
+t1287048002
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m
+c000000004CB6CB4200000000000036D0
+t1287048002
+s14032
+i"SBJsonParser.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.h
+c000000004CB6CB420000000000001140
+t1287048002
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m
+c000000004CB6CB420000000000001F26
+t1287048002
+s7974
+i"SBJsonWriter.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+c000000004CD788650000000000008BD6
+t1289193573
+s35798
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch
+c000000004CD77FF700000000000000CB
+t1289191415
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.h
+c000000004CD77FF7000000000000020E
+t1289191415
+s526
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m
+c000000004CD77FF70000000000000AB0
+t1289191415
+s2736
+i"ArithmeticTrainerAppDelegate.h"
+i"ArithmeticTrainerViewController.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.h
+c000000004CD77FF700000000000000FF
+t1289191415
+s255
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m
+c000000004CD7B01D0000000000000610
+t1289203741
+s1552
+i"ArithmeticTrainerViewController.h"
+i"FBConnect/FBConnect.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib
+c000000004CD77FF70000000000004EA1
+t1289191415
+s20129
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainer.LinkFileList
+c000000004CD7B03000000000000008CB
+t1289203760
+s2251
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerAppDelegate.o
+t1289203762
+s48400
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerViewController.o
+t2
+s0
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBDialog.o
+t1289203763
+s106056
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBLoginDialog.o
+t1289203763
+s40904
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBRequest.o
+t1289203763
+s43272
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/Facebook.o
+t1289203763
+s60924
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSObject+SBJSON.o
+t1289203762
+s8412
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSString+SBJSON.o
+t1289203762
+s8332
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJSON.o
+t1289203762
+s20196
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonBase.o
+t1289203762
+s13328
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonParser.o
+t1289203762
+s36056
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonWriter.o
+t1289203762
+s25668
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/main.o
+t1289203762
+s6348
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app
+t2
+s0
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app.dSYM
+t2
+s0
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/ArithmeticTrainer
+t2
+s0
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/ArithmeticTrainerViewController.nib
+t1289203761
+s5907
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/FBDialog.bundle
+t1289203761
+s102
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/Info.plist
+t1289203761
+s637
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/MainWindow.nib
+t1289203761
+s1701
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/PkgInfo
+t1289203761
+s8
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m
+c000000004CD77FF70000000000000166
+t1289191415
+s358
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src/FBDialog.h
+c000000004CB6CB4200000000000011EE
+t1287048002
+s4590
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.h
+c000000004CB6CB420000000000000577
+t1287048002
+s1399
+i"FBDialog.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src/FBRequest.h
+c000000004CB6CB420000000000000C0C
+t1287048002
+s3084
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src/Facebook.h
+c000000004CB6CB420000000000000C78
+t1287048002
+s3192
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch.gch
+t1289203762
+s15211536
+
+NArithmeticTrainer-Info.plist
+c000000004CD77FF7000000000000038D
+t1289191415
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310896560#310896561#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.460719
+e310896562.563352
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerAppDelegate.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m310896562#310896562#0(0"0(0#0#99"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m8603292480#2500"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerAppDelegate.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.524838
+e310896562.601424
+r0
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerViewController.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:10:32: error: FBConnect/FBConnect.h: No such file or directory
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m: In function '-[ArithmeticTrainerViewController viewDidLoad]':
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: 'session' undeclared (first use in this function)
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: (Each undeclared identifier is reported only once
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: for each function it appears in.)
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: 'FBS' undeclared (first use in this function)
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ':' before '}' token
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ':' before '}' token
+o/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ';' before '}' token
+lSLF07#2@110"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896562#310896562#0(1400"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:10:32: error: FBConnect/FBConnect.h: No such file or directory/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m: In function '-[ArithmeticTrainerViewController viewDidLoad]':/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: 'session' undeclared (first use in this function)/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: (Each undeclared identifier is reported only once/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: for each function it appears in.)/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:38: error: 'FBS' undeclared (first use in this function)/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ':' before '}' token/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ':' before '}' token/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m:39: error: expected ';' before '}' token6(4@48"FBConnect/FBConnect.h: No such file or directory310896562#0#166#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#10#0#10#0#28"*: No such file or directory0(4@49"'session' undeclared (first use in this function)310896562#332#164#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#38#0#38#0#43"'*' undeclared (first use in this function)0(4@45"'FBS' undeclared (first use in this function)310896562#808#160#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#38#0#38#0#43"'*' undeclared (first use in this function)0(4@29"Expected ':' before '}' token310896562#968#144#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#39#0#39#0#19"expected * before *0(4@29"Expected ':' before '}' token310896562#1112#144#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#39#0#39#0#19"expected * before *0(4@29"Expected ';' before '}' token310896562#1256#144#0(6@102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310896541#39#0#39#0#19"expected * before *0(0#0#102"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m8607015136#2506"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/ArithmeticTrainerViewController.o1#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBDialog.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896563.069027
+e310896563.253458
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBDialog.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m310896563#310896563#0(0"0(0#0#112"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m8603497312#2493"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBLoginDialog.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896563.040623
+e310896563.125994
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m310896563#310896563#0(0"0(0#0#117"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m8603690432#2503"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBLoginDialog.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBRequest.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.897633
+e310896563.040508
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBRequest.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m310896562#310896563#0(0"0(0#0#113"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m8604225856#2495"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBRequest.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/Facebook.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.933548
+e310896563.068924
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/Facebook.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m310896562#310896563#0(0"0(0#0#112"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m8603986592#2493"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/Facebook.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSObject+SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.563447
+e310896562.669248
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m310896562#310896562#0(0"0(0#0#124"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m8603134144#2512"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSObject+SBJSON.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSString+SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.601529
+e310896562.690866
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m310896562#310896562#0(0"0(0#0#124"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m8604223168#2512"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/NSString+SBJSON.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJSON.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.669360
+e310896562.766129
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJSON.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m310896562#310896562#0(0"0(0#0#115"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m8603423200#2494"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJSON.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonBase.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.690975
+e310896562.829808
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonBase.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@127"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m310896562#310896562#0(0"0(0#0#119"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m8603104864#2502"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonBase.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonParser.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.766243
+e310896562.897533
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonParser.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m310896562#310896562#0(0"0(0#0#121"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m8607060128#2506"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonParser.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonWriter.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.829909
+e310896562.933443
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m310896562#310896562#0(0"0(0#0#121"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m8590572736#2506"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/JSON/SBJsonWriter.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896562.459344
+e310896562.524623
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/main.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m310896562#310896562#0(0"0(0#0#67"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m8603708704#2444"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/main.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+s310896561.036804
+e310896561.624999
+r1
+xCompileXIB
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+lSLF07#2@46"CompileXIB ArithmeticTrainerViewController.xib310896561#310896561#0(0"0(0#0#96"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib8604143648#688"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/ArithmeticTrainerViewController.nib /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainerViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib
+s310896561.035934
+e310896561.420822
+r1
+xCompileXIB
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310896561#310896561#0(0"0(0#0#75"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib8603481472#646"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/MainWindow.nib /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ArithmeticTrainer.app/FBDialog.bundle ../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle
+s310896561.420914
+e310896561.425857
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ArithmeticTrainer.app/FBDialog.bundle
+x../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle
+lSLF07#2@61"Copy ../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle310896561#310896561#0(0"0(0#0#117"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle8603956480#576"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/../facebook-facebook-ios-sdk-d2ee942/src/FBDialog.bundle /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app0#
+
+CGenerateDSYMFile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app.dSYM /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/ArithmeticTrainer
+r0
+
+CLd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/ArithmeticTrainer normal i386
+r0
+
+CProcessInfoPlistFile /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/Info.plist ArithmeticTrainer-Info.plist
+s310896561.010840
+e310896561.035836
+r1
+xProcessInfoPlistFile
+x/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/Info.plist
+xArithmeticTrainer-Info.plist
+lSLF07#2@36"Process ArithmeticTrainer-Info.plist310896561#310896561#0(0"0(0#0#89"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainer-Info.plist31244220637446252#575"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ArithmeticTrainer-Info.plist -genpkginfo /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app/Info.plist0#
+
+CProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310896561.625223
+e310896562.459194
+r1
+xProcessPCH
+x/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch.gch
+xArithmeticTrainer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile ArithmeticTrainer_Prefix.pch310896561#310896562#0(0"0(0#0#89"/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch8604041984#2304"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator -iquote/Users/mikelee/Documents/Code/XCode/IPhone/facebook-facebook-ios-sdk-d2ee942/src -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources/i386 -I/Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphonesimulator/ArithmeticTrainer.build/DerivedSources -c /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch -o /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-fjdklbjferctsraebspiiwgzuepk/ArithmeticTrainer_Prefix.pch.gch0#
+
+CTouch /Users/mikelee/Documents/Code/XCode/IPhone/ArithmeticTrainer/build/Debug-iphonesimulator/ArithmeticTrainer.app
+r0
+

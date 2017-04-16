@@ -1,0 +1,3 @@
+What is NSData anyway? What's with all the void types?
+
+One = 19478 bytes

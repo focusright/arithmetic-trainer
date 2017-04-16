@@ -1,0 +1,429 @@
+TArithmeticTrainer
+v7
+r0
+t310885628.274952
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/Info.plist ArithmeticTrainer-Info.plist
+cCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib
+cCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+cProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer normal armv6
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer normal armv7
+cCreateUniversalBinary /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer normal "armv6 armv7"
+cGenerateDSYMFile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app.dSYM /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer
+cProcessProductPackaging "/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision" /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision
+cTouch /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent
+cCodeSign /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+c000000004CD785740000000000008BC7
+t1289192820
+s35783
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch
+c000000004CD77FF700000000000000CB
+t1289191415
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.h
+c000000004CD77FF7000000000000020E
+t1289191415
+s526
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m
+c000000004CD77FF70000000000000AB0
+t1289191415
+s2736
+i"ArithmeticTrainerAppDelegate.h"
+i"ArithmeticTrainerViewController.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.h
+c000000004CD77FF700000000000000FF
+t1289191415
+s255
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m
+c000000004CD77FF700000000000005D4
+t1289191415
+s1492
+i"ArithmeticTrainerViewController.h"
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib
+c000000004CD77FF70000000000004EA1
+t1289191415
+s20129
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent
+t1289192827
+s440
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer
+t1289192827
+s17784
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer.LinkFileList
+c000000004CD785770000000000000234
+t1289192823
+s564
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerAppDelegate.o
+t1289192827
+s47916
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerViewController.o
+t1289192827
+s34712
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/main.o
+t1289192827
+s6516
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer
+t1289192827
+s17784
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer.LinkFileList
+c000000004CD785770000000000000234
+t1289192823
+s564
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerAppDelegate.o
+t1289192827
+s47832
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerViewController.o
+t1289192827
+s34688
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/main.o
+t1289192827
+s6500
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+t1289192828
+s374
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app.dSYM
+t1289192827
+s102
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer
+t1289192827
+s42360
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainerViewController.nib
+t1289192824
+s5883
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/Info.plist
+t1289192823
+s772
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/MainWindow.nib
+t1289192824
+s1701
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/PkgInfo
+t1289192823
+s8
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist
+t1289192823
+s485
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision
+t1289192827
+s7234
+
+N/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m
+c000000004CD77FF70000000000000166
+t1289191415
+s358
+i<UIKit/UIKit.h>
+
+N/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision
+c000000004CBB56AF0000000000001C42
+t1287345839
+s7234
+
+N/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch.gch
+t1289192826
+s10294832
+
+N/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch.gch
+t1289192826
+s9831984
+
+NArithmeticTrainer-Info.plist
+c000000004CD77FF7000000000000038D
+t1289191415
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310885623#310885623#0(0"0(0#1#0"8631564928#0"0#
+
+CCodeSign /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+s310885627.428075
+e310885628.274911
+r1
+xCodeSign
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/ArithmeticTrainer.app310885627#310885628#0(0"0(0#0#116"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app8590275872#834"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Mike Lee (B6AR67H552)" --resource-rules=/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist --entitlements /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310885626.952917
+e310885627.037090
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerAppDelegate.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m310885626#310885627#0(0"0(0#0#112"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m8627662784#2365"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv6 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerAppDelegate.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310885627.013176
+e310885627.095831
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerViewController.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310885627#310885627#0(0"0(0#0#115"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m8627055776#2371"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv6 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainerViewController.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310885626.951795
+e310885627.013068
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/main.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m310885626#310885627#0(0"0(0#0#80"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m8628941792#2309"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv6 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerAppDelegate.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310885627.105365
+e310885627.197733
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerAppDelegate.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m310885627#310885627#0(0"0(0#0#112"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m8629334912#2365"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv7 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerAppDelegate.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerAppDelegate.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerViewController.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310885627.170335
+e310885627.238733
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerViewController.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m310885627#310885627#0(0"0(0#0#115"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m8622085792#2371"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv7 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/Classes/ArithmeticTrainerViewController.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainerViewController.o0#
+
+CCompileC build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/main.o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310885627.037198
+e310885627.105261
+r1
+xCompileC
+xbuild/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/main.o
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m310885627#310885627#0(0"0(0#0#80"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m8614852608#2309"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv7 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -include /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/main.m -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+s310885623.771664
+e310885625.555565
+r1
+xCompileXIB
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib
+lSLF07#2@46"CompileXIB ArithmeticTrainerViewController.xib310885623#310885625#0(0"0(0#0#109"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib8630471968#699"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainerViewController.nib /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainerViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib
+s310885623.770971
+e310885625.341588
+r1
+xCompileXIB
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310885623#310885625#0(0"0(0#0#88"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib8631659200#657"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/MainWindow.nib /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCpResource build/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s310885623.713895
+e310885623.770547
+r1
+xCpResource
+xbuild/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist310885623#310885623#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8628687680#560"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app0#
+
+CCreateUniversalBinary /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer normal "armv6 armv7"
+s310885627.266531
+e310885627.291280
+r1
+xCreateUniversalBinary
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer normal "armv6 armv7"310885627#310885627#0(0"0(0#0#85"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/armv6 armv78629835264#738"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer -output /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer0#
+
+CGenerateDSYMFile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app.dSYM /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer
+s310885627.291384
+e310885627.379630
+r1
+xGenerateDSYMFile
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app.dSYM
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/ArithmeticTrainer.app.dSYM build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer310885627#310885627#0(0"0(0#0#134"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer8629384128#497"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ArithmeticTrainer -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app.dSYM0#
+
+CLd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer normal armv6
+s310885627.095948
+e310885627.168330
+r1
+xLd
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer
+xnormal
+xarmv6
+lSLF07#2@186"Link /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer310885627#310885627#0(0"0(0#0#0"8628450272#1094"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -filelist /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv6/ArithmeticTrainer0#
+
+CLd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer normal armv7
+s310885627.238829
+e310885627.266412
+r1
+xLd
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer
+xnormal
+xarmv7
+lSLF07#2@186"Link /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer310885627#310885627#0(0"0(0#0#0"8630376576#1094"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -filelist /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/Objects-normal/armv7/ArithmeticTrainer0#
+
+CProcessInfoPlistFile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/Info.plist ArithmeticTrainer-Info.plist
+s310885623.725050
+e310885623.770906
+r1
+xProcessInfoPlistFile
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/Info.plist
+xArithmeticTrainer-Info.plist
+lSLF07#2@36"Process ArithmeticTrainer-Info.plist310885623#310885623#0(0"0(0#0#102"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer-Info.plist8628235200#742"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ArithmeticTrainer-Info.plist -genpkginfo /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/ResourceRules.plist -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/Info.plist0#
+
+CProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310885625.556661
+e310885626.951657
+r1
+xProcessPCH
+x/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch.gch
+xArithmeticTrainer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile ArithmeticTrainer_Prefix.pch310885625#310885626#0(0"0(0#0#102"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch8632420928#2162"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv7 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch -o /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-ddudfqeduliymjdnhqhnifwcuamu/ArithmeticTrainer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch.gch ArithmeticTrainer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310885625.555695
+e310885626.839162
+r1
+xProcessPCH
+x/var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch.gch
+xArithmeticTrainer_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile ArithmeticTrainer_Prefix.pch310885625#310885626#0(0"0(0#0#102"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch8629969600#2162"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-generated-files.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-own-target-headers.hmap -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-all-target-headers.hmap -iquote /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer-project-headers.hmap -F/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/include -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources/armv6 -I/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/DerivedSources -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/ArithmeticTrainer_Prefix.pch -o /var/folders/YM/YMl+YuaxEDWfdw0BEqj5e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ArithmeticTrainer_Prefix-gzywcgjslzqzhpdydjxxsjzqdprg/ArithmeticTrainer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision" /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision
+s310885627.379740
+e310885627.386836
+r1
+xProcessProductPackaging
+x/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision" build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision310885627#310885627#0(0"0(0#0#141"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision8628039936#505"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mikelee/Library/MobileDevice/Provisioning Profiles/B53A6103-9FBA-43DB-80B5-B4BAE208D41A.mobileprovision" -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent
+s310885627.403622
+e310885627.427974
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent310885627#310885627#0(0"0(0#0#166"/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent8626601152#532"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/ArithmeticTrainer.build/Debug-iphoneos/ArithmeticTrainer.build/ArithmeticTrainer.xcent0#
+
+CTouch /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+s310885627.386908
+e310885627.403521
+r1
+xTouch
+x/Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app
+lSLF07#2@122"Touch /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app310885627#310885627#0(0"0(0#0#0"8627483616#344"    cd /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mikelee/Documents/Code/XCode/IPhone/ProjectTypes/ArithmeticTrainer/build/Debug-iphoneos/ArithmeticTrainer.app0#
+
